@@ -5,7 +5,7 @@ Galen Framework is an open-source layout and functional testing framework for we
 It uses Selenium for interacting with elements on page and getting their locations and dimensions.
 
 ## Content
-+ Reffered Project - galen-samples-aster
++ Referred Project - galen-samples-aster
 + Working Project - Gem_Ecosystem_Galen
 + POC Document - Galen DOC
 + POC Presentation - Galen
