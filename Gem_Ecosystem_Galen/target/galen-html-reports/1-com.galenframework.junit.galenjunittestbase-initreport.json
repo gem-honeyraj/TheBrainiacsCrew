@@ -1,0 +1,433 @@
+{
+  "testId" : "1-com.galenframework.junit.galenjunittestbase-initreport",
+  "name" : "com.galenframework.junit.GalenJUnitTestBase#>initReport",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout HomePage.spec",
+      "status" : "error",
+      "time" : 1669630092799,
+      "includedTags" : [ "normal", "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Navigation",
+        "place" : {
+          "filePath" : "HomePage.spec",
+          "lineNumber" : 27
+        },
+        "objects" : [ {
+          "name" : "nav.logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 31
+            },
+            "name" : "visible",
+            "highlight" : [ "nav.logo" ]
+          } ]
+        }, {
+          "name" : "nav.menu-item-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 39
+            },
+            "name" : "left-of nav.menu-item-2 ~ 0px",
+            "highlight" : [ "nav.menu-item-1", "nav.menu-item-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 48
+            },
+            "name" : "count visible nav.menu-item-* is 6",
+            "highlight" : [ "nav.menu-item-3", "nav.menu-item-4", "nav.menu-item-5", "nav.menu-item-6", "nav.menu-item-1", "nav.menu-item-2" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 49
+            },
+            "name" : "height 67px",
+            "errors" : [ "\"nav.menu-item-1\" height is 45px instead of 67px" ],
+            "highlight" : [ "nav.menu-item-1" ]
+          } ]
+        }, {
+          "name" : "nav.menu-item-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 39
+            },
+            "name" : "left-of nav.menu-item-3 ~ 0px",
+            "highlight" : [ "nav.menu-item-2", "nav.menu-item-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 48
+            },
+            "name" : "count visible nav.menu-item-* is 6",
+            "highlight" : [ "nav.menu-item-3", "nav.menu-item-4", "nav.menu-item-5", "nav.menu-item-6", "nav.menu-item-1", "nav.menu-item-2" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 49
+            },
+            "name" : "height 67px",
+            "errors" : [ "\"nav.menu-item-2\" height is 45px instead of 67px" ],
+            "highlight" : [ "nav.menu-item-2" ]
+          } ]
+        }, {
+          "name" : "nav.menu-item-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 39
+            },
+            "name" : "left-of nav.menu-item-4 ~ 0px",
+            "highlight" : [ "nav.menu-item-3", "nav.menu-item-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 48
+            },
+            "name" : "count visible nav.menu-item-* is 6",
+            "highlight" : [ "nav.menu-item-3", "nav.menu-item-4", "nav.menu-item-5", "nav.menu-item-6", "nav.menu-item-1", "nav.menu-item-2" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 49
+            },
+            "name" : "height 67px",
+            "errors" : [ "\"nav.menu-item-3\" height is 45px instead of 67px" ],
+            "highlight" : [ "nav.menu-item-3" ]
+          } ]
+        }, {
+          "name" : "nav.menu-item-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 39
+            },
+            "name" : "left-of nav.menu-item-5 ~ 0px",
+            "highlight" : [ "nav.menu-item-4", "nav.menu-item-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 48
+            },
+            "name" : "count visible nav.menu-item-* is 6",
+            "highlight" : [ "nav.menu-item-3", "nav.menu-item-4", "nav.menu-item-5", "nav.menu-item-6", "nav.menu-item-1", "nav.menu-item-2" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 49
+            },
+            "name" : "height 67px",
+            "errors" : [ "\"nav.menu-item-4\" height is 45px instead of 67px" ],
+            "highlight" : [ "nav.menu-item-4" ]
+          } ]
+        }, {
+          "name" : "nav.menu-item-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 39
+            },
+            "name" : "left-of nav.menu-item-6 ~ 0px",
+            "highlight" : [ "nav.menu-item-5", "nav.menu-item-6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 48
+            },
+            "name" : "count visible nav.menu-item-* is 6",
+            "highlight" : [ "nav.menu-item-3", "nav.menu-item-4", "nav.menu-item-5", "nav.menu-item-6", "nav.menu-item-1", "nav.menu-item-2" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 49
+            },
+            "name" : "height 67px",
+            "errors" : [ "\"nav.menu-item-5\" height is 45px instead of 67px" ],
+            "highlight" : [ "nav.menu-item-5" ]
+          } ]
+        }, {
+          "name" : "nav",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 42
+            },
+            "name" : "width 100 % of viewport/width",
+            "highlight" : [ "nav" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 43
+            },
+            "name" : "centered horizontally inside screen",
+            "highlight" : [ "nav", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 44
+            },
+            "name" : "contains nav.menu-item-*",
+            "highlight" : [ "nav", "nav.menu-item-1", "nav.menu-item-2", "nav.menu-item-3", "nav.menu-item-4", "nav.menu-item-5", "nav.menu-item-6" ]
+          } ]
+        }, {
+          "name" : "nav.menu-item-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 48
+            },
+            "name" : "count visible nav.menu-item-* is 6",
+            "highlight" : [ "nav.menu-item-3", "nav.menu-item-4", "nav.menu-item-5", "nav.menu-item-6", "nav.menu-item-1", "nav.menu-item-2" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 49
+            },
+            "name" : "height 67px",
+            "errors" : [ "\"nav.menu-item-6\" height is 45px instead of 67px" ],
+            "highlight" : [ "nav.menu-item-6" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Header",
+        "place" : {
+          "filePath" : "HomePage.spec",
+          "lineNumber" : 62
+        },
+        "objects" : [ {
+          "name" : "header-area",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 64
+            },
+            "name" : "below nav 20 to 25px",
+            "highlight" : [ "header-area", "nav" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 65
+            },
+            "name" : "centered horizontally inside screen",
+            "highlight" : [ "header-area", "screen" ]
+          } ]
+        }, {
+          "name" : "header-area.img-txt",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 69
+            },
+            "name" : "aligned horizontally top header-area.img-pic",
+            "highlight" : [ "header-area.img-txt", "header-area.img-pic" ]
+          } ]
+        }, {
+          "name" : "header-area.img-button",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 76
+            },
+            "name" : "visible",
+            "highlight" : [ "header-area.img-button" ]
+          } ]
+        }, {
+          "name" : "header-area.img-button.logo-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 76
+            },
+            "name" : "visible",
+            "highlight" : [ "header-area.img-button.logo-1" ]
+          } ]
+        }, {
+          "name" : "header-area.img-button.logo-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 76
+            },
+            "name" : "visible",
+            "highlight" : [ "header-area.img-button.logo-2" ]
+          } ]
+        }, {
+          "name" : "header-area.img-button.logo-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 76
+            },
+            "name" : "visible",
+            "highlight" : [ "header-area.img-button.logo-3" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Body",
+        "place" : {
+          "filePath" : "HomePage.spec",
+          "lineNumber" : 78
+        },
+        "objects" : [ {
+          "name" : "whatIs",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 81
+            },
+            "name" : "width 100 % of viewport/width",
+            "highlight" : [ "whatIs" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 82
+            },
+            "name" : "css color is \"rgba(33, 37, 41, 1)\"",
+            "highlight" : [ "whatIs" ]
+          } ]
+        }, {
+          "name" : "whatIs.heading-whatis",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 84
+            },
+            "name" : "text is \"What Is GemEcosystem ?\"",
+            "highlight" : [ "whatIs.heading-whatis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 85
+            },
+            "name" : "centered horizontally inside whatIs",
+            "highlight" : [ "whatIs.heading-whatis", "whatIs" ]
+          } ]
+        }, {
+          "name" : "whatIs.heading-whatis-about-us",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 88
+            },
+            "name" : "text lowercase is \"about us\"",
+            "highlight" : [ "whatIs.heading-whatis-about-us" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 89
+            },
+            "name" : "below whatIs.heading-whatis",
+            "highlight" : [ "whatIs.heading-whatis-about-us", "whatIs.heading-whatis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "HomePage.spec",
+              "lineNumber" : 90
+            },
+            "name" : "centered horizontally inside whatIs",
+            "highlight" : [ "whatIs.heading-whatis-about-us", "whatIs" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "whatIs.heading-whatis-about-us" : {
+          "area" : [ 0, 636, 1267, 18 ]
+        },
+        "nav.logo" : {
+          "area" : [ 78, 16, 215, 29 ]
+        },
+        "nav" : {
+          "area" : [ 0, 0, 1267, 61 ]
+        },
+        "header-area" : {
+          "area" : [ 63, 85, 1140, 428 ]
+        },
+        "header-area.img-button" : {
+          "area" : [ 75, 398, 546, 67 ]
+        },
+        "screen" : {
+          "area" : [ 0, 0, 1267, 4396 ]
+        },
+        "header-area.img-txt" : {
+          "area" : [ 75, 133, 546, 265 ]
+        },
+        "header-area.img-pic" : {
+          "area" : [ 686, 133, 464, 296 ]
+        },
+        "whatIs.heading-whatis" : {
+          "area" : [ 412, 586, 441, 48 ]
+        },
+        "whatIs" : {
+          "area" : [ 0, 585, 1267, 675 ]
+        },
+        "nav.menu-item-3" : {
+          "area" : [ 544, 8, 206, 45 ]
+        },
+        "header-area.img-button.logo-2" : {
+          "area" : [ 324, 398, 48, 67 ]
+        },
+        "nav.menu-item-4" : {
+          "area" : [ 750, 8, 195, 45 ]
+        },
+        "header-area.img-button.logo-1" : {
+          "area" : [ 142, 398, 48, 67 ]
+        },
+        "nav.menu-item-5" : {
+          "area" : [ 944, 8, 152, 45 ]
+        },
+        "nav.menu-item-6" : {
+          "area" : [ 1096, 8, 136, 45 ]
+        },
+        "header-area.img-button.logo-3" : {
+          "area" : [ 506, 398, 48, 67 ]
+        },
+        "nav.menu-item-1" : {
+          "area" : [ 34, 8, 304, 45 ]
+        },
+        "nav.menu-item-2" : {
+          "area" : [ 337, 8, 206, 45 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

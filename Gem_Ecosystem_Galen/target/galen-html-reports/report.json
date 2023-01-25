@@ -1,0 +1,31 @@
+{
+  "tests" : [ {
+    "name" : "com.galenframework.junit.GalenJUnitTestBase#>initReport",
+    "startedAt" : 1669630087669,
+    "endedAt" : 1669630093520,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 29,
+      "errors" : 6,
+      "warnings" : 0,
+      "total" : 35
+    },
+    "testId" : "1-com.galenframework.junit.galenjunittestbase-initreport",
+    "duration" : 5851,
+    "failed" : true
+  }, {
+    "name" : "com.galenframework.junit.GalenJUnitTestBase#>initReport",
+    "startedAt" : 1669630093525,
+    "endedAt" : 1669630096731,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 22,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 23
+    },
+    "testId" : "2-com.galenframework.junit.galenjunittestbase-initreport",
+    "duration" : 3206,
+    "failed" : true
+  } ]
+}
