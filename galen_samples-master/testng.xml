@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ho.raj/Downloads/galen_samples-master/testng">
+        <classes>
+            <class name="sample.layout.CssLayoutTest">
+                <methods>
+                    <include name="shouldShowCorrectBaseLayout"/>
+                </methods>
+            </class>
+            <class name="sample.layout.GoogleLayoutTest">
+                <methods>
+                    <include name="shouldShowCorrectBaseLayout"/>
+                </methods>
+            </class>
+            <class name="sample.layout.HomeLayoutTest">
+                <methods>
+                    <include name="shouldShowCorrectBaseLayout"/>
+                </methods>
+            </class>
+            <class name="sample.layout.JavascriptLayoutTest">
+                <methods>
+                    <include name="shouldShowCorrectBaseLayout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

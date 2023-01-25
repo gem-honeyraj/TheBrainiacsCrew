@@ -1,0 +1,31 @@
+@import galen-extras-rules.gspec
+
+= Overall layout =
+
+  content:
+    visible
+  navbar.header:
+   visible
+  content:
+    below navbar
+
+  = navigation =
+  
+   @on mobile
+     navbar.item-*:
+       absent
+  
+   @on desktop
+     navbar.item-*:
+       visible  
+      
+  = Content should fit to screen size =
+  
+   @on mobile
+     content:
+       width 100% of screen/width
+  
+   @on desktop
+     content:
+       width 80 to 90% of screen/width 
+    

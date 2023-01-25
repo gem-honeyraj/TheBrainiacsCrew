@@ -1,0 +1,13 @@
+@import shared/common.gspec
+
+@objects
+  css-hint-*	div.bs-callout
+
+# common layout checks
+@import shared/commonLayout.gspec
+
+# concrete layout tests
+
+= code snippets should render correct =
+css-hint-*:
+    component shared/calloutComponent.gspec

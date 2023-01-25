@@ -1,0 +1,14 @@
+
+@objects
+  search-input		#lst-ib
+  search-results    #ires
+  
+# concrete layout tests
+
+= Search input visible =
+    search-input:
+        visible
+
+= Show search results =
+    search-results:
+        visible

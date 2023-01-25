@@ -1,0 +1,42 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+testng/test-output/*
+testng/.project
+testng/.settings/*
+testng/.classpath
+testng/logs/*
+testng/build/classes/*
+
+junit/.project
+junit/.classpath
+junit/.settings/*
+junit/test-output/*
+junit/logs/*
+junit/build/classes/*
+
+reports/*
+
+javascript/testRunner/bootstrap/reports/*
+javascript/reports/*
+javascript/node/*.log
+javascript/node/dist/
+javascript/node/node_modules/
+javascript/grunt/node_modules/
+javascript/gulp/node_modules/
+
+## IDEA
+.idea/*
+javascript/*.iml
+junit/*.iml
+testng/*.iml
